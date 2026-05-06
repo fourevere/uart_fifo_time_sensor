@@ -96,7 +96,7 @@ module top_uart_time_sensor (
 
 
     fifo #(
-        .DEPTH(20)
+        .DEPTH(32)
     ) U_FIFO_TX (
         .clk      (clk),
         .rst      (rst),
